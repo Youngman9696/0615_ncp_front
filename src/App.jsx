@@ -3,7 +3,7 @@ import "./App.css";
 
 // API_BASE_URL : 통신할 백엔드 주소를 저장하는 변수..
 //  클라우드용
-const API_BASE_URL = "/api";
+const API_BASE_URL = "http://223.130.138.139:3000/api";
 
 //  로컬 테스트용
 // const API_BASE_URL = "http://localhost:3000/api";
@@ -134,7 +134,7 @@ function App() {
     body.append("content", form.content);
 
     if (form.file) {
-      body.append("file", form.file);
+      body.append("image", form.file);
     }
 
     try {
