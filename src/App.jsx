@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import "./App.css";
 
-// API_BASE_URL : 통신할 백엔드 주소를 저장하는 변수
+// API_BASE_URL : 통신할 백엔드 주소를 저장하는 변수..
 //  클라우드용
 const API_BASE_URL = "/api";
 
